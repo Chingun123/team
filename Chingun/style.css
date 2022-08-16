@@ -1,0 +1,13 @@
+.chingun-profile {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.chingun-profile > div:last-child {
+    border: 1px solid black;
+    border-bottom-left-radius: 50%;
+    box-shadow: 20px -20px 0px 0px black;
+}
+img {
+    border-bottom-left-radius: 50%;
+}
