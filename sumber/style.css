@@ -1,0 +1,115 @@
+.a{
+    position: relative;
+    
+    background-color: grey;
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    
+}
+@keyframes a {
+    from {background-color: grey;}
+    to {background-color: white;}
+  }
+/* @media  (min-width:50px){
+    .a {
+        width: 40px;
+        background-color: rgb(81, 225, 41);
+    }
+    }
+@media  (min-width:154px){
+.a {
+    width: 140px;
+    background-color: rgb(79, 120, 155);
+}
+}
+@media  (min-width:500px){
+    .a {
+        width: 480px;
+        background-color: aliceblue;
+    }
+    }
+    @media  (min-width:900px){
+        .a {
+            width: 880px;
+            background-color: rgb(13, 13, 13);
+        }
+} */
+body{
+    height: 1000px;
+  
+}
+.a1{
+    position: relative;
+    left: 0px;
+    top: 50px;
+}
+/* .a2{
+    font-size: 1000px;
+    position: relative;
+    margin: 5px;
+} */
+.a3{
+    font-size: 80px;
+    position: relative;
+    margin: 5px;
+}
+.a4{
+    margin: 5px;
+    font-size: 80px;
+    position: relative;
+}
+#img{
+    position: absolute;
+    width: 110%;
+    height: 82%;
+    border-radius: 50%;
+}
+.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    left: 330px;
+    top: 220px; */
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    animation-name: a;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes a {
+    from {background-color: grey;}
+    to {background-color: white;}
+  }
+.small1{
+    box-shadow: 0 0 100px 10px rgb(237, 241, 241);
+    /* z-index: 5; */
+    position: absolute;
+    
+    background-color: grey;
+    width: 5%;
+    height: 65%;
+    animation-name: a;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-color: rgb(55, 64, 72);
+    border-radius: 10px;
+  }
+  @keyframes a{
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+  .c{
+    position: relative;
+    left: -830px;
+    top: 450px;
+  }
+  h1{
+    margin: 5px;
+  }
+  
+  
