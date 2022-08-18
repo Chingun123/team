@@ -57,20 +57,3 @@ ul {
     box-shadow: 2px 5px 3px 3px gray;
     border-radius: 2px;    
 }
-.second {
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    padding: 50px;
-}
-.neonred {
-    background-color: darkgray;
-    width: 100vh;
-    height: 8px;
-    border-radius: 2px;
-}
-.second :first-child {
-    display: flex;
-    flex-direction: column;
-}
