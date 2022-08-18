@@ -1,13 +1,63 @@
+.container {
+display: flex;
+align-items: center;
+height: 100vh;
+}
 .chingun-profile {
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    margin: 0 100px 0 100px;
 }
-.chingun-profile > div:last-child {
-    border: 1px solid black;
+.chingun-profile > div:nth-child(2) {
+    border: 5px solid black;
     border-bottom-left-radius: 50%;
     box-shadow: 20px -20px 0px 0px black;
+    width: 25vw;
+    height: 50vh;
 }
 img {
     border-bottom-left-radius: 50%;
+    width: 24vw;
+    height: 49.1vh;
+}
+button {
+    border: 1px solid black;
+    height: 50px;
+    font-weight: 900;
+    font-size: 1.1em;
+    font-weight: bolder;
+    cursor: pointer;
+}   
+.button {
+    margin-top: 250px;
+    display: flex;
+    gap: 30px;
+}
+.button > button:nth-child(1) {
+    width: 140px;
+    color: black;
+    background-color: white;
+}
+.button > button:nth-child(2) {
+    width: 300px;
+    background-color: black;
+    color: white;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.topic {
+    font-size: 3em;
+    font-weight: bold;
+}
+.text > div:nth-child(2) {
+    font-size: 1.5em;
+    color: grey;
 }
