@@ -1,0 +1,659 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.big {
+    display: flex ;
+    height: 400vh ;
+}
+body {
+    background-color: rgb(0, 0, 125) ;
+    display: flex ;
+    justify-content: center ;   
+}
+.img {
+    width: 700px ;
+    height: 500px ;
+    margin-left: 80% ;
+    margin-top: 30% ;
+}
+.button {
+    border: transparent ;
+    width: 90px ;
+    height: 30px ;
+    background-color: rgb(255, 63, 63) ;
+    color: white ;
+    font-size: 20px ;
+    margin-left: 25% ;
+    margin-top: 7% ;
+    border-radius: 4px ;
+    box-shadow: 5px 5px rgb(65, 65, 65);
+}
+.button:hover {
+    cursor: pointer ;
+}
+.text {
+    font-size: 50px ;
+    margin-top: -60% ; 
+    margin-left: 40% ;
+    font-style:italic ;
+    text-shadow: 3px 3px grey ;
+    font-weight: 20px ;
+    animation: mycolor 4s infinite ;
+}
+@keyframes mycolor {
+    0% {
+        color: purple ;
+    }
+    25% {
+        color: cyan ;
+    }
+    50% {
+        color: red ; 
+    }
+    75% {
+        color: green ;
+    }
+    100% {
+        color: yellow ;
+    }
+} 
+.text1   {
+    font-size: 50px ;
+    margin-left: 20% ;
+    font-style:italic ;
+    text-shadow: 3px 3px grey ;
+    animation: mycolor1 4s infinite ;
+}
+@keyframes mycolor1 {
+    0% {
+        color: purple ;
+    }
+    25% {
+        color: cyan ;
+    }
+    50% {
+        color:  red  ;
+    }
+    75% {
+        color: green ;
+    }
+    100% {
+        color: yellow ;
+    }
+} 
+.text2 {
+    font-size: 50px ;
+    margin-left: 10% ;
+    font-style:italic ;
+    margin-top: -10% ;
+    animation: mycolor2 4s infinite ;
+}
+@keyframes mycolor2 {
+    0% {
+        color: purple ;
+    }
+    25% {
+        color: cyan ;
+    }
+    50% {
+        color: red ;
+    }
+    75% {
+        color: green  ;
+    }
+    100% {
+        color: yellow ;
+    }
+}
+.texts {
+    display: flex ;
+    flex-direction: column ;
+    gap: 100px ; 
+    text-shadow: 3px 3px grey ;
+}
+.hidden {
+    text-shadow: none ;
+    font-style: italic ;
+    color: black ;
+    margin-top: -10% ;
+    margin-left: 30% ;
+}
+.contain {
+    display: flex ;
+    gap: 10px ; 
+    margin-top: 5% ;    
+}
+.line1 {
+    width: 50px ;
+    height: 5px ;
+    background-color: orange ;
+    transition: 500ms;
+}
+.line2 {
+    width: 50px ;
+    height: 5px ;
+    background-color: orange ;
+    transform: rotate(90deg);
+    margin-left: -7.5% ;
+    transition: 500ms ;
+}
+.contain:hover > .line1 {
+    transform: rotate(90deg);
+    transition: 500ms;
+}
+.contain:hover > .line2 {
+    transform: rotate(180deg);
+    transition: 500ms ;
+}
+.contain1 {
+    display: flex ;
+    gap: 10px ; 
+    margin-top: 20% ;
+    margin-left: -50% ;
+}
+.line3 {
+    width: 50px ;
+    height: 5px ;
+    background-color: rgb(255, 0, 0) ;
+    transition: 500ms;
+    margin-top: -40% ;
+}
+.line4 {
+    width: 50px ;
+    height: 5px ;
+    background-color: rgb(255, 0, 0) ;
+    transform: rotate(90deg);
+    margin-left: -5% ;
+    transition: 500ms ;
+    margin-top: -40%;
+}
+.contain1:hover > .line3 {
+    transform: rotate(90deg);
+    transition: 500ms;
+}
+.contain1:hover > .line4 {
+    transform: rotate(180deg);
+    transition: 500ms ;
+}
+.contain2 {
+    display: flex ;
+    gap: 10px ; 
+    margin-top: -250% ;
+    margin-left: 50% ;
+}
+.line5 {
+    width: 50px ;
+    height: 5px ;
+    background-color: pink ;
+    transition: 500ms;
+}
+.line6 {
+    width: 50px ;
+    height: 5px ;
+    background-color: pink ;
+    transform: rotate(90deg);
+    margin-left: -10.5% ;
+    transition: 500ms ;
+}
+.contain2:hover > .line5 {
+    transform: rotate(90deg);
+    transition: 500ms;
+}
+.contain2:hover > .line6 {
+    transform: rotate(180deg);
+    transition: 500ms ;
+}
+.hidden {
+    color: white ;
+}
+.moon {
+    width: 400px ;
+    height: 400px ;
+    margin-left: -330% ;
+    margin-top: -25% ;
+}
+.contain3 {
+    display: flex ;
+    gap: 10px ; 
+    margin-top: 45% 
+}
+.line7 {
+    width: 50px ;
+    height: 5px ;
+    background-color: rgb(192, 255, 221 ) ;
+    transition: 500ms;
+}
+.line8 {
+    width: 50px ;
+    height: 5px ;
+    background-color: rgb(192, 255, 221) ;
+    transform: rotate(90deg);
+    margin-left: -8.5% ;
+    transition: 500ms ;
+}
+.contain3:hover > .line7 {
+    transform: rotate(90deg);
+    transition: 500ms;
+}
+.contain3:hover > .line8 {
+    transform: rotate(180deg);
+    transition: 500ms ;
+}
+.contain4 {
+    display: flex ;
+    gap: 10px ; 
+    margin-top: 35% ;
+    margin-left: 80% ;
+}
+.line9 {
+    width: 50px ;
+    height: 5px ;
+    background-color: rgb(255, 72, 0) ;
+    transition: 500ms;
+}
+.line10 {
+    width: 50px ;
+    height: 5px ;
+    background-color: rgb(255, 72, 0) ;
+    transform: rotate(90deg);
+    margin-left: -41% ;
+    transition: 500ms ;
+}
+.contain4:hover > .line9 {
+    transform: rotate(90deg);
+    transition: 500ms;
+}
+.contain4:hover > .line10 {
+    transform: rotate(180deg);
+    transition: 500ms ;
+}
+.contain5 {
+    display: flex ;
+    gap: 10px ; 
+    margin-top: 25% ;
+    margin-left: 50% ;
+}
+.line11 {
+    width: 50px ;
+    height: 5px ;
+    background-color: rgb(255, 251, 0) ;
+    transition: 500ms;
+}
+.line12 {
+    width: 50px ;
+    height: 5px ;
+    background-color: rgb(255, 251, 0) ;
+    transform: rotate(90deg);
+    margin-left: -15% ;
+    transition: 500ms ;
+}
+.contain5:hover > .line11 {
+    transform: rotate(90deg);
+    transition: 500ms;
+}
+.contain5:hover > .line12 {
+    transform: rotate(180deg);
+    transition: 500ms ;
+}
+.contain6 {
+    display: flex ;
+    gap: 10px ; 
+    margin-left: -25%;
+    margin-top: 10% ;
+}
+.line13 {
+    width: 50px ;
+    height: 5px ;
+    background-color: rgb(251, 0, 255) ;
+    transition: 500ms;
+}
+.line14 {
+    width: 50px ;
+    height: 5px ;
+    background-color: rgb(251, 0, 255) ;
+    transform: rotate(90deg);
+    margin-left: -6% ;
+    transition: 500ms ;
+}
+.contain6:hover > .line13 {
+    transform: rotate(90deg);
+    transition: 500ms;
+}
+.contain6:hover > .line14 {
+    transform: rotate(180deg);
+    transition: 500ms ;
+}
+.contain7 {
+    display: flex ;
+    gap: 10px ; 
+    margin-left: -1 5% ;
+    margin-top: -30% ;
+}
+.line15 {
+    width: 50px ;
+    height: 5px ;
+    background-color: rgb(25, 138, 0) ;
+    transition: 500ms;
+    margin-left: 94% ;
+    margin-top: 70% ;
+}
+.line16 {
+    width: 50px ;
+    height: 5px ;
+    background-color: rgb(25, 138, 0) ;
+    transform: rotate(90deg);
+    margin-left: -7% ;
+    transition: 500ms ;
+    margin-top: 70% ;
+}
+.contain7:hover > .line15 {
+    transform: rotate(90deg);
+    transition: 500ms;
+}
+.contain7:hover > .line16 {
+    transform: rotate(180deg);
+    transition: 500ms ;
+}
+.page2title {
+    font-size: 60px ;
+    color: white ;
+    font-style: italic ;
+    margin-top: 40% ;
+}
+.txt {
+    font-size: 30px ;
+    color:  white;
+    font-style: italic ;
+    margin-top: 10% ;
+}
+.logo {
+    display: flex ;
+    flex-direction: row ;
+}
+.images {
+    display: flex ;
+    flex-direction: row ;
+}
+.js {
+    margin-left: -35% ;
+}
+.html {
+    margin-left: 25% ;
+}
+.css {
+    margin-left: 60% ;
+}
+.title {
+    font-size: 60px ;
+    color: white ; 
+    margin-left: -45% ;
+}
+.title1 {
+    font-size: 60px ;
+    color: white ; 
+    margin-left: 35%    ;
+}
+.title2 {
+    font-size: 60px ;
+    color: white ; 
+    margin-left: 20% ;
+}
+.texts1 {
+    margin-top: -10% ;
+}
+.earth {
+    margin-left: -30% ;
+    margin-top: 10% ;
+    animation: earth 5s infinite ;
+}
+@keyframes earth {
+    from {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.ufo {
+    width: 80px ;
+    height: 80px ;
+    margin-top: 20% ;
+    animation: ufo 8s infinite ;
+    color: blue ;
+}
+@keyframes ufo {
+    from {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(1200%);
+    }
+}
+.saturn {
+    width: 300px ;
+    height: 300px ;
+    margin-left: 120% ;
+    margin-top: -20% ;
+    animation: saturn 4s infinite ;
+}
+@keyframes saturn {
+    from {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-180deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+.venus {
+    width: 300px ;
+    height: 300px ;
+    margin-left: -60% ;
+    margin-top: -100% ;
+    animation: venus 4s infinite ;
+}
+@keyframes venus {
+    from {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.boxes {
+    display: grid ;
+    width: 700px ;
+    height: 800px ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 10fr 2fr ;
+    margin-top: 30% ;
+    margin-left: -40% ;
+}
+.box1 {
+    background-color: rgb(237, 237, 237) ; 
+}
+.sidebox {
+    width: 800px ;
+    height: 800px ;
+    background-color: rgb(254, 236, 202) ;
+    border-radius: 20px ;
+    display: flex ;
+    position: absolute ;
+    margin-left: 17% ;
+    margin-top: -39% ;
+    z-index: 1 ;
+}
+.title3 {
+    font-size: 50px ;
+    margin-left: 30% ;
+    margin-top: 4% ;
+    font-style: italic ;
+}
+.name {
+    width: 250px ;
+    height: 70px ;
+    border-radius: 10px ;
+    margin-top: 15% ;
+    margin-left: -50% ;
+}
+.phone {
+    width: 250px ;
+    height: 70px ;
+    border-radius: 10px ;
+    margin-top: 15% ;
+    margin-left: 10% ;
+}
+.email {
+    width: 400px ;
+    height: 70px ;
+    border-radius: 10px ;
+    margin-top: 30% ;
+    margin-left: -72% ;
+}
+.subject {
+    width: 200px ;
+    height: 70px ;
+    border-radius: 10px ;
+    margin-top: 45% ;
+    margin-left: -50% ;
+}
+.message {
+    width: 600px ;
+    height: 150px ;
+    border-radius: 10px ;
+    margin-top: 60% ;
+    margin-left: -73% ;
+}
+.submit {
+    width: 250px ;
+    height: 80px ;
+    margin-top: 85% ;
+    margin-left: -55% ;
+    border-radius: 15px ;
+    font-size: 30px ;
+    color: white ;
+    background-color: rgb(207, 50, 76)  ;
+}
+.title4 {
+    font-size: 50px ;
+    font-style: italic ;
+    margin-left: 20% ;
+    margin-top: 5% ;
+}
+.text3 {
+    font-size: 30px ;
+    font-style: italic ;
+    margin-top: 5% ;
+    margin-left: 2.5% ;
+}
+.emailbox {
+    width: 100px ;
+    height: 100px ;
+    border-radius: 10px ;
+    background-color: rgb(207, 50, 76) ;
+    margin-top: 10% ;
+    margin-left: 20% ;
+}
+.emailbox1 {
+    width: 100px ;
+    height: 100px ;
+    border-radius: 10px ;
+    background-color: rgb(207, 50, 76) ;
+    margin-top: -25% ;
+    margin-left: 60% ;
+}
+.contact {
+    font-size: 20px ;
+    margin-left: 12% ;
+    margin-top: 2% ;
+}
+.number {
+    font-size: 20px ;
+    margin-top: 2% ;
+    margin-left: 57% ;
+}
+.number1 {
+    font-size: 20px ;
+    margin-top: 2% ;
+    margin-left: 57% ;
+}
+.triangle-left {
+    width: 0 ; 
+    height: 0 ;
+    border-top: 80px solid transparent;
+    border-right: 160px solid rgb(0, 0, 125) ;
+    border-bottom:  200px solid transparent;
+    margin-top: -40.5% ;
+    margin-left: -20% ;
+    position: absolute ;
+    transform: rotate(50deg);
+}
+.triangle-right {
+    width: 0 ; 
+    height: 0 ;
+    border-top: 100px solid transparent;
+    border-right: 160px solid rgb(0, 0, 125) ;
+    border-bottom:  200px solid transparent;
+    margin-top: -13% ;
+    margin-left: -20% ;
+    position: absolute ;
+    transform: rotate(-50deg);
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid rgb(0, 0, 125);
+    margin-top: -10% ;
+    position: absolute ;
+    margin-left: -10%;
+}
+.triangle-up1 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid rgb(0, 0, 125);
+    margin-top: -10% ;
+    position: absolute ;
+    margin-left: -3%;
+}
+.triangle-up2 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid rgb(0, 0, 125);
+    margin-top: -10% ;
+    position: absolute ;
+    margin-left: 4%;
+}
+.triangle-up3 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid rgb(0, 0, 125);
+    margin-top: -10% ;
+    position: absolute ;
+    margin-left: 11%;
+}
+.hole {
+    width: 100px ;
+    height: 200px ;
+    background-color: rgb(0, 0, 125) ;
+    margin-left: 35% ;
+    margin-top: 30% ;
+    border-radius: 10px ;
+}
