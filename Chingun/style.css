@@ -9,13 +9,16 @@ height: 100vh;
     margin: 0 100px 0 100px;
 }
 .chingun-profile > div:nth-child(2) {
-    border: 1px solid black;
+    border: 5px solid black;
     border-bottom-left-radius: 50%;
     box-shadow: 20px -20px 0px 0px black;
-
+    width: 25vw;
+    height: 50vh;
 }
 img {
     border-bottom-left-radius: 50%;
+    width: 24vw;
+    height: 49.1vh;
 }
 button {
     border: 1px solid black;
