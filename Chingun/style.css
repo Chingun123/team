@@ -1,23 +1,30 @@
 .container {
     margin: 100px 150px 0 150px;
+    display: flex;
+    flex-direction: column;
 }
+
 .chingun-profile {
+    flex-grow: 1;
     display: flex;
     justify-content: space-around;
     gap: 10px;
 }
-.chingun-profile > div:nth-child(2) {
+
+.chingun-profile>div:nth-child(2) {
     border: 5px solid black;
     border-bottom-left-radius: 50%;
     box-shadow: 20px -20px 0px 0px black;
     width: 22vw;
     height: 50vh;
 }
-img {
+
+.profile-picture {
     border-bottom-left-radius: 50%;
     width: 21vw;
     height: 49.1vh;
 }
+
 button {
     border: 1px solid black;
     height: 50px;
@@ -25,41 +32,50 @@ button {
     font-size: 1.1em;
     font-weight: bolder;
     cursor: pointer;
-}   
+}
+
 .button {
     margin-top: 250px;
     display: flex;
     gap: 30px;
 }
-.button > button:nth-child(1) {
+
+.button>button:nth-child(1) {
     width: 140px;
     color: black;
     background-color: white;
 }
-.button > button:nth-child(2) {
+
+.button>button:nth-child(2) {
     width: 300px;
     background-color: black;
     color: white;
 }
+
 .text {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.text > div:nth-child(1) {
+
+.text>div:nth-child(1) {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
 .topic {
     font-size: 3em;
     font-weight: bold;
 }
-.text > div:nth-child(2) {
+
+.text>div:nth-child(2) {
     font-size: 1.5em;
     color: grey;
 }
+
 .got-skills {
+    flex-grow: 1;
     margin: 20px 0 0 0;
     display: flex;
     flex-direction: column;
@@ -67,68 +83,116 @@ button {
     justify-content: center;
     align-items: center;
 }
-.got-skills > div:nth-child(1) {
+
+.got-skills>div:nth-child(1) {
     font-size: 2.5em;
     font-weight: bold;
 }
-.got-skills > div:nth-child(2) {
+
+.got-skills>div:nth-child(2) {
     font-size: 1.1em;
 }
-.got-skills > div:nth-child(3) {
+
+.got-skills>div:nth-child(3) {
     width: 100%;
     margin-top: 50px;
     display: flex;
     gap: 100px;
 }
+
 .flex-wrapper {
     display: flex;
     flex-flow: row nowrap;
-  }
-  
-  .single-chart {
+}
+
+.single-chart {
     width: 33%;
-    justify-content: space-around ;
-  }
-  
-  .circular-chart {
+    justify-content: space-around;
+}
+
+.circular-chart {
     display: block;
     margin: 10px auto;
     max-width: 80%;
     max-height: 250px;
-  }
-  
-  .circle-bg {
+}
+
+.circle-bg {
     fill: none;
     stroke: #eee;
     stroke-width: 3.8;
-  }
-  
-  .circle {
+}
+
+.circle {
     fill: none;
     stroke-width: 2.8;
     stroke-linecap: round;
     animation: progress 1s ease-out forwards;
-  }
-  
-  @keyframes progress {
+}
+
+@keyframes progress {
     0% {
-      stroke-dasharray: 0 100;
+        stroke-dasharray: 0 100;
     }
-  }
-  
-  .circular-chart.orange .circle {
+}
+
+.circular-chart.orange .circle {
     stroke: #ff9f00;
-  }
-  
-  .circular-chart.green .circle {
+}
+
+.circular-chart.green .circle {
     stroke: #4CC790;
-  }
-  .circular-chart.blue .circle {
+}
+
+.circular-chart.blue .circle {
     stroke: #3c9ee5;
-  }
-  .percentage {
+}
+
+.percentage {
     fill: #666;
     font-family: sans-serif;
     font-size: 0.3em;
     text-anchor: middle;
-  }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85vw;
+    height: 700px;
+    margin-top: 100px;
+}
+
+.contact>div:nth-child(1) {
+    width: 50%;
+    height: 70%;
+    background-color: #F9F3F5;
+}
+
+.contact>div:nth-child(2) {
+    width: 50%;
+    height: 100%;
+    background-color: #C4C4C4;
+}
+
+.contact-text-icons {
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+}
+
+.co {
+    width: 100px;
+    height: 100px;
+    background-color: #FF4C60;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.co>svg {
+    width: 60%;
+    height: 60%;
+}

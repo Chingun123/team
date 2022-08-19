@@ -6,9 +6,18 @@
 }
 body {
     display: flex;
+<<<<<<< HEAD
     flex-direction: column ;
+<<<<<<< HEAD
     align-items: center;
     justify-content: center;
+=======
+=======
+>>>>>>> 70e1c09827851ade5a5d700656b80de0880fee7c
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+>>>>>>> 179280cd166e46722840dfcecb1b4b344079159c
 }
 
 @media screen and (min-width:576px) {
@@ -35,4 +44,11 @@ body {
     .a {
         width: 1320px;
     }
+<<<<<<< HEAD
 }
+=======
+}
+
+
+
+>>>>>>> 70e1c09827851ade5a5d700656b80de0880fee7c
