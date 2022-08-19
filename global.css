@@ -6,6 +6,7 @@
 }
 body {
     display: flex;
+    flex-direction: column ;
     justify-content: center;
     align-items: center;
 }
@@ -35,6 +36,3 @@ body {
         width: 1320px;
     }
 }
-
-
-
