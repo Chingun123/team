@@ -1,20 +1,20 @@
 .container {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/005/512/804/non_2x/very-cool-abstract-background-suitable-for-wallpaper-and-so-on-free-vector.jpg);
     display: flex;
     flex-direction: column;
 }
 .first {
-    background-color: rgb(0, 0, 0);
     display: flex;
     padding: 50px;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     justify-content: space-around;
     align-items: center;
 }
 .aa > img {
-    width: 80%;
+    width: 100%;
     border-radius: 100%;
-    box-shadow: 5px 5px 10px 1px black, 10px 10px 5px 10px rgb(130, 6, 6), inset 5px 5px 10px 1px black;
+    box-shadow: 0px 0px 10px 1px blue, 0px 0px 5px 10px rgb(130, 6, 6);
 }
 .red :last-child {
     width: 40%;
@@ -59,18 +59,25 @@ ul {
 }
 .second {
     background-color: black;
-    height: 100%;
     width: 100%;
-    display: flex;
-    padding: 50px;
-}
-.neonred {
-    background-color: darkgray;
-    width: 100vh;
-    height: 8px;
-    border-radius: 2px;
-}
-.second :first-child {
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    padding: 50px;
+}
+.hobbies {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: fantasy;
+    font-size: 30px;
+}
+.drawing > img {
+    width: 30%;
+    border-radius: 10px;
+}
+.drawing :first-child {
+    color: white;
+    font-size: 30px;
+    font-family:monospace;
 }
