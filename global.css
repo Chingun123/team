@@ -6,9 +6,13 @@
 }
 body {
     display: flex;
+<<<<<<< HEAD
     flex-direction: column ;
+=======
+>>>>>>> 70e1c09827851ade5a5d700656b80de0880fee7c
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 @media screen and (min-width:576px) {
@@ -35,4 +39,11 @@ body {
     .a {
         width: 1320px;
     }
+<<<<<<< HEAD
 }
+=======
+}
+
+
+
+>>>>>>> 70e1c09827851ade5a5d700656b80de0880fee7c

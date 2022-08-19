@@ -154,6 +154,7 @@ button {
     font-size: 0.3em;
     text-anchor: middle;
 }
+
 .contact {
     display: flex;
     align-items: center;
@@ -162,21 +163,25 @@ button {
     height: 700px;
     margin-top: 100px;
 }
+
 .contact>div:nth-child(1) {
     width: 50%;
     height: 70%;
     background-color: #F9F3F5;
 }
+
 .contact>div:nth-child(2) {
     width: 50%;
     height: 100%;
     background-color: #C4C4C4;
 }
+
 .contact-text-icons {
     display: flex;
     justify-content: space-around;
     gap: 200px;
 }
+
 .co {
     width: 100px;
     height: 100px;
@@ -186,6 +191,7 @@ button {
     justify-content: center;
     align-items: center;
 }
+
 .co>svg {
     width: 60%;
     height: 60%;
