@@ -5,7 +5,7 @@
 .first {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkaGE4AFAOWFyYeHD2jy774Snb4Ye0xWxoMsfpCmEHHjdTVSrSSThZyA6P78BumdUtYeM&usqp=CAU);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100vh;
     display: flex;
     padding: 50px;
     width: 100%;
@@ -41,23 +41,6 @@ ul {
 }
 .aa {
     display: flex;
-}
-.back {
-    display: flex;
-    width: 100px;
-    height: 100px;
-    background-color: blanchedalmond;
-    box-shadow: 0px 0px 20px 5px gray;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-}
-.switch {
-    background-color: rgb(207, 184, 150);
-    width: 20px;
-    height: 50px;
-    box-shadow: 2px 5px 3px 3px gray;
-    border-radius: 2px;    
 }
 .second {
     background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-beautiful-gradient-general-background-beautiful-gradient-image_11116.jpg);
@@ -170,6 +153,10 @@ ul {
     flex-direction: column;
     padding: 50px;
 }
-.third :first-child {
-    color: white;
+.skills {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: fantasy;
+    font-size: 30px;
 }
