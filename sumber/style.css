@@ -9,7 +9,7 @@
     animation-duration: 10s;
     animation-name: c;
     animation-iteration-count: infinite;
-    transition: 10s;
+
 }
 @keyframes c {
     0% {background-color: rgb(233, 22, 22);}
@@ -20,7 +20,7 @@
     100% {background-color: rgb(233, 22, 22);}
   } 
 body{
-    height: 2000px;
+    height: 3000px;
   
 }
 .a1{
@@ -53,11 +53,30 @@ body{
     position: relative;
 }
 #img{
+  z-index: 1;
     box-shadow: 0 0 100px 10px rgb(27, 10, 500);
     position: absolute;
     width: 60%;
     height: 100%;
     border-radius: 50%;
+}
+#img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 .b{
     display: flex;
@@ -143,6 +162,7 @@ body{
   }
   
   .dropdown {
+    z-index: 1;
     position: relative;
     top: 50px;
     left: 20px;
@@ -151,6 +171,10 @@ body{
     animation-name: b;
     animation-iteration-count: infinite;
     transition: 10s;
+  }
+  .dropdown:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
   }
   @keyframes d {
     0% {background-color: rgb(233, 22, 22);}
@@ -201,6 +225,7 @@ body{
     animation-name: d;
     animation-iteration-count: infinite;
     transition: 10s;
+    width: 64.5%;
   }
   @keyframes d {
     0% {background-color: rgb(233, 22, 22);}
@@ -316,17 +341,15 @@ body{
   top: 40px;
 }
 .e{
- 
   position:absolute;
   top: 1400px;
   width: 64.5%;
-  height: 1200px;
+  height: 1000px;
   animation-duration: 11s;
-  animation-name: m;
+  animation-name: s;
   animation-iteration-count: infinite;
-
 }
-@keyframes m {
+@keyframes s {
   0% {background-color: rgb(233, 22, 22);}
   20% {background-color: rgb(238, 231, 15);}
   40% {background-color: rgb(37, 223, 24);}
@@ -352,7 +375,7 @@ width: 500px;
 #img6{
   position: relative;
   left: 200px;
-  top: 750px;
+  top: 550px;
   width: 600px;
 }
 .e2{
@@ -378,7 +401,7 @@ width: 500px;
 
 .e5{position: relative;
   left: 250px;
-  top: 850px;
+  top: 650px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -397,4 +420,47 @@ width: 500px;
   60% {background-color: rgb(30, 100, 221);}
   80% {background-color: rgb(185, 22, 226);}
   100% {background-color: rgb(233, 22, 22);}
+}
+.container2{\
+
+  /* position:absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center; */
+}
+.vehiecle{
+  background-color: #0a4ae0;
+  position: relative;
+  top: 2400px;
+  width: 64.5%;
+  height: 600px;
+}
+.c3{
+  position: relative;
+  top: 50px;
+  left: 20px;
+  height: 126px;
+  background-color: black;
+  width: 160px;
+}
+.c4{
+  background-color: white;
+  width: 160px;
+  height: 43px;
+}
+.c4:checked{
+  width: 160px;
+  height: 3px;
+}
+.c5{
+  position: relative;
+  background-color: rgb(158, 30, 30);
+  width: 160px;
+  height: 43px;
+}
+.c6{
+  position: relative;
+  background-color: rgb(41, 46, 212);
+  width: 160px;
+  height: 43px;
 }
