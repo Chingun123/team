@@ -1,9 +1,11 @@
 .container {
-    background-image: url(https://static.vecteezy.com/system/resources/previews/005/512/804/non_2x/very-cool-abstract-background-suitable-for-wallpaper-and-so-on-free-vector.jpg);
     display: flex;
     flex-direction: column;
 }
 .first {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkaGE4AFAOWFyYeHD2jy774Snb4Ye0xWxoMsfpCmEHHjdTVSrSSThZyA6P78BumdUtYeM&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
     display: flex;
     padding: 50px;
     width: 100%;
@@ -14,7 +16,7 @@
 .aa > img {
     width: 100%;
     border-radius: 100%;
-    box-shadow: 0px 0px 10px 1px blue, 0px 0px 5px 10px rgb(130, 6, 6);
+    box-shadow: 0px 0px 10px 20px rgb(239, 198, 233), 0px 0px 10px 3px rgb(165, 219, 255);
 }
 .red :last-child {
     width: 40%;
@@ -30,7 +32,7 @@
 }
 ul {
     font-size: 200%;
-    color: rgb(112, 168, 168);
+    color: rgb(82, 159, 197);
 }
 .one {
     background-color: rgb(130, 6, 6);
@@ -40,27 +42,13 @@ ul {
 .aa {
     display: flex;
 }
-.back {
-    display: flex;
-    width: 100px;
-    height: 100px;
-    background-color: blanchedalmond;
-    box-shadow: 0px 0px 20px 5px gray;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-}
-.switch {
-    background-color: rgb(207, 184, 150);
-    width: 20px;
-    height: 50px;
-    box-shadow: 2px 5px 3px 3px gray;
-    border-radius: 2px;    
-}
 .second {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-beautiful-gradient-general-background-beautiful-gradient-image_11116.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-color: black;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     padding: 50px;
@@ -75,9 +63,100 @@ ul {
 .drawing > img {
     width: 30%;
     border-radius: 10px;
+    box-shadow: 5px 5px 0px 0px rgb(110, 155, 194), 10px 10px 0px 0px rgb(71, 112, 149);
 }
 .drawing :first-child {
     color: white;
     font-size: 30px;
     font-family:monospace;
+}
+.singing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.singing :first-child {
+    margin-right: 200px;
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+}
+.singing > img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 0px rgb(255, 240, 141), 10px 10px 0px 0px rgb(255, 232, 82);
+}
+.listening {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.listening > img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 0px rgb(137, 147, 184), 10px 10px 0px 0px rgb(109, 115, 136);
+}
+.listening :first-child {
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+}
+.watching :first-child {
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+}
+.watching > img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 0px rgb(181, 200, 144), 10px 10px 0px 0px rgb(135, 151, 91);
+}
+.playing :first-child {
+    margin-right: 100px;
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+}
+.playing > img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 0px rgb(193, 175, 135), 10px 10px 0px 0px rgb(156, 134, 77);
+}
+.playing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sleeping > img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 0px rgb(84, 98, 160), 10px 10px 0px 0px rgb(77, 81, 156);
+}
+.sleeping :first-child {
+    margin-right: 180px;
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+}
+.sleeping {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.third {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-beautiful-gradient-literary-general-background-gradient-image_11100.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.skills {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: fantasy;
+    font-size: 30px;
 }
