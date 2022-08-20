@@ -180,6 +180,7 @@ button {
     display: flex;
     justify-content: space-around;
     gap: 200px;
+    padding: 50px 0 0 0;
 }
 
 .co {
@@ -195,4 +196,50 @@ button {
 .co>svg {
     width: 60%;
     height: 60%;
+}
+.contact-text>div:nth-child(1) {
+    font-size: 3em;
+    font-weight: bold;
+    padding: 60px 0 0 35px;
+}
+.contact-text>div:nth-child(2) {
+    font-size: 1em;
+    font-weight: 700;
+    padding: 20px 0 0 35px;
+}
+.contact-text-icons>div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} 
+.contact-text-icons>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-form>div:nth-child(1) {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.contact-form-text {
+    font-size: 2em;
+    font-weight: bold;
+}
+.contact-form-name-phone {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-form-name-phone>input {
+    width: 30%;
+    height: 100%;
+}
+.contact-form>input:nth-child(3) {
+    width: 80%;
 }
