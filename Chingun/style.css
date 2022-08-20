@@ -144,11 +144,11 @@ button {
 }
 
 .circular-chart.green .circle {
-    stroke: #4CC790;
+    stroke: #77ADEC;
 }
 
 .circular-chart.blue .circle {
-    stroke: #3c9ee5;
+    stroke: #CD378C;
 }
 
 .percentage {
