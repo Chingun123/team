@@ -43,10 +43,12 @@ body {
     border-radius: 5px;
     background-color: transparent;
     color: white;
+    transition: 400ms linear;
 }
 .head-menu>button:nth-child(1):hover {
     background-color: white;
     color: black;
+    transform: unset;
 }
 .head-menu>button:nth-child(2):hover {
     background-color: white;
