@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Trebuchet MS' sans-serif;
 }
-.container {
+.body {
     height: 35% ;
     width: 100% ;
     background-color: rgb(201, 228, 245);
@@ -33,7 +33,7 @@
     background-color: rgb(201, 228, 245);
 }
 .head {
-    height: 20%  ;
+    height: 50vh;
     width: 100%;
     background-color: #59007B ;
 }
@@ -331,7 +331,7 @@
     background-color: rgb(57, 74, 137);
     justify-content: center;
     align-items: center;
-}
+} 
 .words {
     display: flex;
     color: white;
@@ -380,4 +380,29 @@
 }
 .app7:hover {
     color: cyan;
+.apps {
+    color: white ;
+    font-size: 30px ;
+    margin-top: 2% ;
+}
+.container {
+    display: flex ;
+    align-items: center ;
+    flex-direction: column ;
+}
+.title1 {
+    font-size: 50px ;
+    color: blue ;
+    margin-top: 2% ;
+}
+.text1 {
+    font-size: 20px ;
+    margin-top: 1% ;
+}
+.line {
+    background-color: grey ;
+    border: solid grey ;
+    width: 100px ;
+    height: 5px ;
+    border-radius: 5px ;
 }
