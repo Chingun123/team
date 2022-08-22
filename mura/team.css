@@ -1,0 +1,15 @@
+.container {
+    background-color: rgb(201, 228, 245);
+    width: 70%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head {
+    color: rgb(7, 36, 78);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head :first-child {
+    font-size: 40px;
+}
