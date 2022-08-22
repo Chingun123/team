@@ -59,33 +59,42 @@ body {
     display: flex;
     gap: 40px;
 }
-.head-menu button {
-    width: 110px;
-    height: 30px;
+.head-menu a {
+    width: 130px;
+    height: 40px;
     border: 1px solid transparent;
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: transparent;
     color: white;
     transition: 400ms linear;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
-.head-menu>button:nth-child(1):hover {
+.head-menu>a:nth-child(1):hover {
     background-color: white;
     color: black;
     transform: unset;
 }
-.head-menu>button:nth-child(2):hover {
+.head-menu>a:nth-child(2):hover {
     background-color: white;
     color: black;
 }
-.head-menu>button:nth-child(3):hover {
+.head-menu>a:nth-child(3):hover {
     background-color: white;
     color: black;
 }
-.head-menu>button:nth-child(4):hover {
+.head-menu>a:nth-child(4):hover {
     background-color: white;
     color: black;
 }
-.head-menu>button:nth-child(5):hover {
+.head-menu>a:nth-child(5):hover {
+    background-color: white;
+    color: black;
+}
+.head-menu>a:nth-child(6):hover {
     background-color: white;
     color: black;
 }
