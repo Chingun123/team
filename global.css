@@ -6,12 +6,12 @@
 }
 body {
     display: flex;
-
     justify-content: center;
+
 }
 
 @media screen and (min-width:576px) {
-    .container{
+    .container {
         width: 540px;
     }
 }
@@ -32,7 +32,10 @@ body {
 }
 @media screen and (min-width: 1400px) {
     .container {
-        width: 1320px;
+        width: 100%;
     }
-
 }
+
+
+
+

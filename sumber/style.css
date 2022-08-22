@@ -1,15 +1,12 @@
 .a{
     position: relative;
-    
     background-color: grey;
-    width: 100%;
+    width: 64.5%;
     height: 800px;
-    /* display: flex; */
     justify-content: center;
     animation-duration: 10s;
     animation-name: c;
     animation-iteration-count: infinite;
-
 }
 @keyframes c {
     0% {background-color: rgb(233, 22, 22);}
@@ -21,7 +18,6 @@
   } 
 body{
     height: 3000px;
-  
 }
 .a1{
     position: relative;
@@ -398,7 +394,6 @@ width: 500px;
 .e4{
   color: white;
 }
-
 .e5{position: relative;
   left: 250px;
   top: 650px;
@@ -421,7 +416,7 @@ width: 500px;
   80% {background-color: rgb(185, 22, 226);}
   100% {background-color: rgb(233, 22, 22);}
 }
-.container2{\
+/* .container2{\
 
   /* position:absolute;
   width: 100%;
@@ -434,7 +429,7 @@ width: 500px;
   top: 2400px;
   width: 64.5%;
   height: 600px;
-}
+} */
 .c3{
   position: relative;
   top: 50px;
@@ -463,4 +458,8 @@ width: 500px;
   background-color: rgb(41, 46, 212);
   width: 160px;
   height: 43px;
+}
+.container{
+  display: flex;
+  justify-content: center;
 }
