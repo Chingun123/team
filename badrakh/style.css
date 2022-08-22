@@ -5,7 +5,7 @@
 }
 .big {
     display: flex ;
-    height: 400vh ;
+    height: 350vh ;
 }
 body {
     background-color: rgb(0, 0, 125) ;
@@ -389,22 +389,46 @@ body {
     font-size: 60px ;
     color: white ; 
     margin-left: -45% ;
+    transform: translateY(-80px);
+    opacity: 0 ;
+    transition: 300ms ;
+}
+.js:hover > .title {
+    transform: translateY(0%);
+    opacity: 1 ;
+    transition: 300ms ;
 }
 .title1 {
     font-size: 60px ;
     color: white ; 
     margin-left: 35%    ;
+    transform: translateY(-80px);
+    opacity: 0 ;
+    transition: 300ms ;
+}
+.html:hover > .title1 {
+    transform: translateY(0px);
+    opacity: 1 ;
+    transition: 300ms ;
 }
 .title2 {
     font-size: 60px ;
     color: white ; 
     margin-left: 20% ;
+    transform: translateY(-80px);
+    opacity: 0 ;
+    transition: 300ms ;
+}
+.css:hover > .title2 {
+    transform: translateY(0px);
+    opacity: 1 ;
+    transition: 300ms ;
 }
 .texts1 {
     margin-top: -10% ;
 }
 .earth {
-    margin-left: -30% ;
+    margin-left: -40% ;
     margin-top: 10% ;
     animation: earth 5s infinite ;
 }
@@ -418,6 +442,41 @@ body {
     100% {
         transform: rotate(360deg);
     }
+}
+.infos2 {
+    font-style: italic ;
+    transform: translateX(-100px );
+    transition: 400ms ;
+    opacity: 0 ;
+}
+.earth:hover + .infos2 {
+    transform: translateX(0px);
+    transition: 400ms ;
+    opacity: 1 ;
+}
+.info9 {
+    margin-top: -40% ;
+    margin-left: -5% ;
+    color: white ; 
+    font-size: 40px ;
+}
+.info10 {
+    margin-top: 5% ;
+    margin-left: -5% ;
+    color: white ; 
+    font-size: 40px ;
+}
+.info11 {
+    margin-top: 5% ;
+    margin-left: -5% ;
+    color: white ; 
+    font-size: 40px ;
+}
+.info12 {
+    margin-top: 5% ;
+    margin-left: -5% ;
+    color: white ; 
+    font-size: 40px ;
 }
 .ufo {
     width: 80px ;
@@ -438,7 +497,7 @@ body {
     width: 300px ;
     height: 300px ;
     margin-left: 120% ;
-    margin-top: -20% ;
+    margin-top: -40% ;
     animation: saturn 4s infinite ;
 }
 @keyframes saturn {
@@ -452,10 +511,46 @@ body {
         transform: rotate(-360deg);
     }
 }
+.infos {
+    margin-top: -40% ;
+    transition: 400ms ;
+    transform: translateX(100px );
+    opacity: 0 ;
+    font-style: italic ;
+}
+.saturn:hover + .infos {
+    transform: translateX(0px);
+    transition: 400ms ;
+    opacity: 1 ;
+}
+.info {
+    margin-left: 105% ;
+    margin-top: 30% ;
+    color: white ;
+    font-size: 40px ;
+}
+.info1 {
+    margin-left: 105% ;
+    margin-top: -20% ;
+    color: white ;
+    font-size: 40px ;
+}
+.info2 {
+    margin-left: 105% ;
+    margin-top: -20% ;
+    color: white ;
+    font-size: 40px ;
+}
+.info3 {
+    margin-left: 105% ;
+    margin-top: -20% ;
+    color: white ;
+    font-size: 40px ;
+}
 .venus {
     width: 300px ;
     height: 300px ;
-    margin-left: -60% ;
+    margin-left: -70% ;
     margin-top: -100% ;
     animation: venus 4s infinite ;
 }
@@ -469,6 +564,41 @@ body {
     100% {
         transform: rotate(360deg);
     }
+}
+.infos1 {
+    font-style: italic ;
+    transform: translateX(-100px);
+    transition: 400ms ;
+    opacity: 0 ;
+}
+.venus:hover + .infos1 {
+    transform: translateX(0px);
+    transition: 400ms ;
+    opacity: 1 ;
+}
+.info5 {
+    font-size: 40px ;
+    color: white ;
+    margin-left: -30% ;
+    margin-top: -50% ;
+}
+.info6 {
+    font-size: 40px ;
+    color: white ;
+    margin-left: -30% ;
+    margin-top: 10% ;
+}
+.info7 {
+    font-size: 40px ;
+    color: white ;
+    margin-left: -30% ;
+    margin-top: 10% ;
+}
+.info8 {
+    font-size: 40px ;
+    color: white ;
+    margin-left: -30% ;
+    margin-top: 10% ;
 }
 .boxes {
     display: grid ;
@@ -543,6 +673,7 @@ body {
     font-size: 30px ;
     color: white ;
     background-color: rgb(207, 50, 76)  ;
+    cursor: pointer ;
 }
 .title4 {
     font-size: 50px ;
@@ -586,6 +717,9 @@ body {
     font-size: 20px ;
     margin-top: 2% ;
     margin-left: 57% ;
+}
+.images {
+    margin-top: 20% ;
 }
 .triangle-left {
     width: 0 ; 
@@ -656,4 +790,84 @@ body {
     margin-left: 35% ;
     margin-top: 30% ;
     border-radius: 10px ;
+}
+.end {
+    font-size: 60px ;
+    color: rgb(8, 132, 29)  ;
+    margin-top: -20% ;
+}
+.endbutton {
+    width: 300px ;
+    height: 80px ;
+    border-radius: 50px ;
+    background-color: rgb(8, 132, 29) ;
+    color: white ;
+    font-size: 40px ;
+    border: transparent ;
+    margin-top: 20% ;
+    margin-left: 25% ;
+    cursor: pointer ;
+}
+.sad {
+    font-size: 30px ;
+    color: rgb(8, 132, 29) ;
+    margin-top: 10% ;
+    margin-left: 22% ;
+}
+.png {
+    margin-left: -70% ;
+}
+.small {
+    margin-top: 10% ;
+    width: 400px ;
+    height: 400px ;
+    animation: moon 4s infinite ;
+    z-index: 2 ;
+    position: relative ;
+}
+@keyframes moon {
+    from {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.info13 {
+    font-size: 40px ;
+    color: white ; 
+    margin-left: 26% ;
+    margin-top: -30% ;
+}
+.info14 {
+    font-size: 40px ;
+    color: white ; 
+    margin-left: 26% ;
+    margin-top: 5% ;
+}
+.info15 {
+    font-size: 40px ;
+    color: white ; 
+    margin-left: 26% ;
+    margin-top: 5% ;
+}
+.info16 {
+    font-size: 40px ;
+    color: white ; 
+    margin-left: 26% ;
+    margin-top: 5% ;
+}
+.infos3 {
+    font-style: italic ;
+    transform: translateX(-100px);
+    transition: 400ms ;
+    opacity: 0 ;
+}
+.small:hover + .infos3 {
+    transform: translateX(0px) ; 
+    transition: 400ms ;
+    opacity: 1 ;
 }
