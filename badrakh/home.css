@@ -340,46 +340,53 @@
 }
 .app1 {
     cursor: pointer;
-
+    color: white ;
 }
 .app1:hover {
     color: cyan;
 }
 .app2 {
     cursor: pointer;
+    color: white ;
 }
 .app2:hover {
     color: cyan;
 }
 .app3 {
     cursor: pointer;
+    color: white ;
 }
 .app3:hover {
     color: cyan;
 }
 .app4 {
     cursor: pointer;
+    color: white ;
 }
 .app4:hover {
     color: cyan;
 }
 .app5 {
     cursor: pointer;
+    color: white ;
 }
 .app5:hover {
     color: cyan;
 }
 .app6 {
     cursor: pointer;
+    color: white ;
 }
 .app6:hover {
     color: cyan;
 }
 .app7 {
     cursor: pointer;
+    color: white ;
 }
 .app7:hover {
     color: cyan;
+}
 .apps {
     color: white ;
     font-size: 30px ;
@@ -405,4 +412,11 @@
     width: 100px ;
     height: 5px ;
     border-radius: 5px ;
+}
+.words {
+    text-decoration: underline ;
+    color: white ;
+}
+.end {
+    height: 110vh ;
 }
