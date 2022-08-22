@@ -335,7 +335,7 @@
 .apps {
     color: white ;
     font-size: 30px ;
-    margin-top: 3% ;
+    margin-top: 2% ;
 }
 .container {
     display: flex ;
@@ -357,4 +357,8 @@
     width: 100px ;
     height: 5px ;
     border-radius: 5px ;
+}
+.end {
+    height: 120vh ;
+    width: 160% ;
 }
