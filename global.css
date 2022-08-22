@@ -14,27 +14,27 @@ body {
 }
 
 @media screen and (min-width:576px) {
-    .a {
+    .container {
         width: 540px;
     }
 }
 @media screen and (min-width: 768px) {
-    .a {
+    .container {
         width: 720px;
     }
 }
 @media screen and (min-width: 992px) {
-    .a {
+    .container {
         width: 960px;
     }
 }
 @media screen and (min-width: 1200px) {
-    .a {
+    .container {
         width: 1140px;
     }
 }
 @media screen and (min-width: 1400px) {
-    .a {
+    .container {
         width: 1320px;
     }
 }
