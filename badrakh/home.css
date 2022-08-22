@@ -238,3 +238,24 @@ body {
     font-size: 30px ;
     margin-top: 3% ;
 }
+.container {
+    display: flex ;
+    align-items: center ;
+    flex-direction: column ;
+}
+.title1 {
+    font-size: 50px ;
+    color: blue ;
+    margin-top: 2% ;
+}
+.text1 {
+    font-size: 20px ;
+    margin-top: 1% ;
+}
+.line {
+    background-color: grey ;
+    border: solid grey ;
+    width: 100px ;
+    height: 5px ;
+    border-radius: 5px ;
+}
