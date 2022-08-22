@@ -1,6 +1,8 @@
 .container {
     display: flex;
     flex-direction: column;
+    width: 100vw;
+    align-items: center;
 }
 .first {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkaGE4AFAOWFyYeHD2jy774Snb4Ye0xWxoMsfpCmEHHjdTVSrSSThZyA6P78BumdUtYeM&usqp=CAU);
@@ -8,7 +10,7 @@
     background-size: 100% 100vh;
     display: flex;
     padding: 50px;
-    width: 100%;
+    width: 70%;
     height: 100vh;
     justify-content: space-around;
     align-items: center;
@@ -47,7 +49,7 @@ ul {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: black;
-    width: 100%;
+    width: 70%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -147,10 +149,9 @@ ul {
     background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-beautiful-gradient-literary-general-background-gradient-image_11100.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 100%;
+    width: 70%;
     height: 100%;
     display: flex;
-    flex-direction: column;
     padding: 50px;
 }
 .skills {
@@ -159,4 +160,16 @@ ul {
     width: 100%;
     font-family: fantasy;
     font-size: 30px;
+}
+.html > img {
+    width: 30%;
+    height: 30%;
+}
+.css > img {
+    width: 30%;
+    height: 30%;
+}
+.js > img {
+    width: 45%;
+    height: 45%;
 }
