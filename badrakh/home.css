@@ -380,6 +380,7 @@
 }
 .app7:hover {
     color: cyan;
+}
 .apps {
     color: white ;
     font-size: 30px ;
@@ -405,4 +406,7 @@
     width: 100px ;
     height: 5px ;
     border-radius: 5px ;
+}
+a {
+    text-decoration: none;
 }
