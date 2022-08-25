@@ -430,6 +430,105 @@ a {
     text-decoration: none;
 }
 .middle {
-    height: 100vh ;
-    background-color: wheat ;
+    height: 130vh ;
+    background-color: #FFDD99 ;
+    display: flex ; 
+    align-items: center ;
+    flex-direction: column ;
+}
+.buteel {
+    margin-top: 3% ;
+}
+.line {
+    width: 100px ;
+    height: 5px ;
+    border-radius: 5px ;
+    border-color: #E5C37F ;
+    background-color: #E5C37F;
+    margin-top: 1% ;
+}
+.big {
+    display: grid ;
+    width: 80% ;
+    height: 60% ;
+    margin-top: 2% ;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+}
+.buteeluud {
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    flex-direction: column ;
+}
+.guide {
+    margin-top: 1% ;
+    font-size: 20px ;
+}
+.guide1 {
+    font-size: 20px ;
+}
+.biggest {
+    display: grid ;
+    display: flex ;
+    width: 40% ;
+    height: 6% ;
+    margin-top: 1% ;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr ;
+    gap: 50px ;
+    justify-content: center ;
+    align-items: center ;    
+}
+.hover {
+    width: 15% ;
+    height: 80% ;
+    border-radius: 5px ;
+    background-color: #E5C37F ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    font-size: 25px ;
+    transition: 400ms ;
+    display: flex ;
+    cursor: pointer; 
+}
+.hover:hover {
+    background-color: white  ;
+    transition: 400ms ;
+}
+.inside-img {
+    width: 85% ;
+    height: 85% ;
+    border-radius: 5px ;
+}
+.inside-img1 {
+    width: 85% ;
+    height: 85% ;
+    border-radius: 5px ;
+}
+.inside-img2 {
+    width: 85% ;
+    height: 85% ;
+    border-radius: 5px ;
+}
+.inside-img3 {
+    width: 85% ;
+    height: 85% ;
+    border-radius: 5px ;
+}
+.names {
+    font-size: 25px ;
+    margin-top: 1% ;
+}
+.load-more {
+    background-color: #17C2A4 ;
+    color: white ;
+    font-size: 20px ;
+    width: 291.58px ;
+    height: 69.66px ;
+    margin-top: 3% ;
+    border-radius: 5px ;
+    border: transparent ;
+    cursor: pointer;
 }
