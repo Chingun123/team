@@ -1,5 +1,6 @@
 .a{
-   
+    position: relative;
+    top: -1000px;
     background-color: grey;
     width: 64.5%;
     height: 800px;
@@ -51,9 +52,9 @@ body{
 #img{
   z-index: 1;
     box-shadow: 0 0 100px 10px rgb(27, 10, 500);
-   
-    width: 30%;
-    height: 55%;
+    position: absolute;
+    width: 60%;
+    height: 100%;
     border-radius: 50%;
 }
 #img:hover {
@@ -214,7 +215,8 @@ body{
   .d{
    
     background-color: black;
-   
+    position:absolute;
+    top: 800px;
     height: 600px;
     animation-duration: 10.5s;
     animation-name: d;
@@ -336,7 +338,8 @@ body{
   top: 40px;
 }
 .e{
-  
+  position:absolute;
+  top: 1400px;
   width: 64.5%;
   height: 1000px;
   animation-duration: 11s;
@@ -460,7 +463,6 @@ width: 500px;
 .container{
   display: flex;
   justify-content: center;
-  flex-direction: column;
 }
 body {
   display: flex !important;
