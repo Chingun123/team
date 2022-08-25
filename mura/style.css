@@ -148,15 +148,19 @@ ul {
 .third {
     background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-beautiful-gradient-literary-general-background-gradient-image_11100.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     width: 70%;
-    height: 100%;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     padding: 50px;
 }
 .logo > img {
-    width: 50%;
+    width: 70%;
+}
+.logo {
+    display: flex;
+    justify-content: center;
 }
 .skills {
     display: flex;
@@ -165,15 +169,49 @@ ul {
     font-family: fantasy;
     font-size: 30px;
 }
-.html > img {
-    width: 30%;
-    height: 30%;
+.fourth {
+    background-image: url(https://t4.ftcdn.net/jpg/05/08/85/65/360_F_508856527_j47VSpWgbNbECuiOa9kSUllJBuZ2V1hF.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 70%;
+    height: 80vh;
+    flex-direction: column;
 }
-.css > img {
-    width: 30%;
-    height: 30%;
+.neg {
+    display: flex;
 }
-.js > img {
-    width: 45%;
-    height: 45%;
+.neg > img {
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+.hoyr {
+    display: flex;
+}
+.hoyr > img {
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    transform: translateY(50px);
+}
+.gurav {
+    display: flex;
+}
+.gurav > img {
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    transform: translateY(100px);
+}
+.garchig {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: fantasy;
+    font-size: 30px;
+}
+.projects {
+    display: flex;
+    justify-content: center;
 }
