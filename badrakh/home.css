@@ -7,7 +7,7 @@
 .body {
     height: 35% ;
     width: 100% ;
-    background-color: rgb(201, 228, 245);
+    background-color: #E7F1F8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,10 +15,27 @@
 }
 .introduction > div > img {
     border-radius: 50%;
-    width: 30%;
+    width: 80%;
+    height: 20%;
 }
+.introduction>div>p {
+    color: #3C4761;
+}
+.introduction-names {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.introduction-names>h3 {
+    color: #27283D;
+}
+.introduction-names>h5 {
+    color: #30BAE7;
+    font-size: 0.8em;
+}
+
 .introduction {
-    width: 70%;
+    width: 40%;
     display: flex;
     padding: 50px;
     flex-wrap: wrap;
@@ -31,28 +48,46 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 25%;
+    gap: 10px;
+    height: 100% ;
 }
-/* .Chingun {
-    width: 30%;
+.introduction-social {
+    display: flex;
+    gap: 10px;
 }
-.Undram {
-    width: 30%;
+.introduction-social>div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #BDD1DF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.Badrah {
-    width: 30%;
+.introduction-social>div>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.Sumber {
-    width: 30%;
-}
-.Enhtuvshin {
-    width: 30%;
-} */
 .heading {
     color: rgb(7, 36, 78);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .heading :first-child {
     font-size: 40px;
+}
+.heading>div:nth-child(2) {
+    width: 20%;
+    background-color: #BDD1DF;
+    height: 2px;
+}
+.heading>h4:nth-child(3) {
+    padding-top: 10px;
+    color: #3C4761;
+    font-weight: 500;
 }
 .blue {
     background-color: rgb(201, 228, 245);
@@ -145,15 +180,10 @@
     font-size: 1em;
     font-weight: 800;
 }
-.middle {
-    height: 25% ;
-    width: 100% ;
-    background-color: wheat ;
-}
 .end {
     height: 40% ;
     width: 100% ;
-    background-color: pink ;
+    background-color: #D74680 ;
     display: flex ;
     flex-direction: column ;
     align-items: center ;
