@@ -18,10 +18,35 @@
     width: 30%;
 }
 .introduction {
+    width: 70%;
     display: flex;
-    flex-direction: row;
     padding: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
 }
+.introduction>div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25%;
+}
+/* .Chingun {
+    width: 30%;
+}
+.Undram {
+    width: 30%;
+}
+.Badrah {
+    width: 30%;
+}
+.Sumber {
+    width: 30%;
+}
+.Enhtuvshin {
+    width: 30%;
+} */
 .heading {
     color: rgb(7, 36, 78);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -348,6 +373,7 @@
 .app1 {
     cursor: pointer;
     color: white ;
+    font-family: sans-serif;
 }
 .app1:hover {
     color: cyan;
@@ -355,6 +381,7 @@
 .app2 {
     cursor: pointer;
     color: white ;
+    font-family: sans-serif;
 }
 .app2:hover {
     color: cyan;
@@ -362,6 +389,7 @@
 .app3 {
     cursor: pointer;
     color: white ;
+    font-family: sans-serif;
 }
 .app3:hover {
     color: cyan;
@@ -369,6 +397,7 @@
 .app4 {
     cursor: pointer;
     color: white ;
+    font-family: sans-serif;
 }
 .app4:hover {
     color: cyan;
@@ -376,6 +405,7 @@
 .app5 {
     cursor: pointer;
     color: white ;
+    font-family: sans-serif;
 }
 .app5:hover {
     color: cyan;
@@ -383,6 +413,7 @@
 .app6 {
     cursor: pointer;
     color: white ;
+    font-family: sans-serif;
 }
 .app6:hover {
     color: cyan;
@@ -390,40 +421,15 @@
 .app7 {
     cursor: pointer;
     color: white ;
+    font-family: sans-serif;
 }
 .app7:hover {
     color: cyan;
 }
-.apps {
-    color: white ;
-    font-size: 30px ;
-    margin-top: 2% ;
+a {
+    text-decoration: none;
 }
-.container {
-    display: flex ;
-    align-items: center ;
-    flex-direction: column ;
-}
-.title1 {
-    font-size: 50px ;
-    color: blue ;
-    margin-top: 2% ;
-}
-.text1 {
-    font-size: 20px ;
-    margin-top: 1% ;
-}
-.line {
-    background-color: grey ;
-    border: solid grey ;
-    width: 100px ;
-    height: 5px ;
-    border-radius: 5px ;
-}
-.words {
-    text-decoration: underline ;
-    color: white ;
-}
-.end {
-    height: 110vh ;
+.middle {
+    height: 100vh ;
+    background-color: wheat ;
 }
