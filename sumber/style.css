@@ -1,470 +1,259 @@
-.a{
-   
-    background-color: grey;
-    width: 64.5%;
-    height: 800px;
-    justify-content: center;
-    animation-duration: 10s;
-    animation-name: c;
-    animation-iteration-count: infinite;
-}
-@keyframes c {
-    0% {background-color: rgb(233, 22, 22);}
-    20% {background-color: rgb(238, 231, 15);}
-    40% {background-color: rgb(37, 223, 24);}
-    60% {background-color: rgb(30, 100, 221);}
-    80% {background-color: rgb(185, 22, 226);}
-    100% {background-color: rgb(233, 22, 22);}
-  } 
-body{
-    height: 3000px;
-}
-.a1{
-    position: relative;
-    left: 0px;
-    top: 50px;
-}
-.a2{
-  color: #efe51d;
-    font-size: 80px;
-    position: relative;
-    margin: 5px;
-}
-.a3{
-  color: #09f443;
-    font-size: 80px;
-    position: relative;
-    margin: 5px;
-}
-.a4{
-  color: #0a4ae0;
-    margin: 5px;
-    font-size: 80px;
-    position: relative;
-}
-.a5{
-  color: #d511e3;
-    margin: 5px;
-    font-size: 80px;
-    position: relative;
-}
-#img{
-  z-index: 1;
-    box-shadow: 0 0 100px 10px rgb(27, 10, 500);
-   
-    width: 30%;
-    height: 55%;
-    border-radius: 50%;
-}
-#img:hover {
-  animation: shake 0.5s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-.b{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 500px;
-    top: 100px;
-    width: 70%;
-    height: 70%;
-    border-radius: 50%;
-    animation-name: a;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-}
-@keyframes a {
-    from {background-color: grey;}
-    to {background-color: white;}
-  }
-.small1{
-    box-shadow: 0 0 100px 10px rgb(237, 241, 241);
-    /* z-index: 5; */
-    position: absolute;
-    
-    background-color: grey;
-    width: 5%;
-    height: 110%;
-    animation-name: small;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    border-color: rgb(55, 64, 72);
-    border-radius: 10px;
-    animation-iteration-count: infinite;
-    transition: 2s;
-  }
-  @keyframes small{
-    0% {background-color: rgb(233, 22, 22);  transform: rotate(0deg);}
-    20% {background-color: rgb(238, 231, 15);}
-    40% {background-color: rgb(37, 223, 24);}
-    60% {background-color: rgb(30, 100, 221);}
-    80% {background-color: rgb(185, 22, 226);}
-    100% {background-color: rgb(233, 22, 22); transform: rotate(360deg);}
-  }
-  @keyframes a{
-    from { transform: rotate(0deg) }
-    to { transform: rotate(360deg) }
-  }
-  .c{
-    position: relative;
-    left: 0px;
-    top: 50px;
-  }
-  .c1{
-    color: white;
-  }
-  .c2{
-    color: white;
-  }
-  h1{
-    margin: 5px;
-  }
-  .d1{
-    background-color: aliceblue;
-    width: 500px;
-    height: 25px;
-  }
-  .dropbtn {
-    background-color: #3498DB;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    animation-duration: 8s;
-    animation-name: d;
-    animation-iteration-count: infinite;
-    transition: 10s;
-  }
-  
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
-  }
-  
-  .dropdown {
-    z-index: 1;
-    position: relative;
-    top: 50px;
-    left: 20px;
-    display: inline-block;
-    animation-duration: 7s;
-    animation-name: b;
-    animation-iteration-count: infinite;
-    transition: 10s;
-  }
-  .dropdown:hover {
-    animation: shake 0.5s;
-    animation-iteration-count: infinite;
-  }
-  @keyframes d {
-    0% {background-color: rgb(233, 22, 22);}
-    20% {background-color: rgb(238, 231, 15);}
-    40% {background-color: rgb(37, 223, 24);}
-    60% {background-color: rgb(30, 100, 221);}
-    80% {background-color: rgb(185, 22, 226);}
-    100% {background-color: rgb(233, 22, 22);}
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: red;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    animation-duration: 10s;
-    animation-name: b;
-    animation-iteration-count: infinite;
-    transition: 10s;
-  }
-  @keyframes b {
-    0% {background-color: rgb(233, 22, 22);}
-    20% {background-color: rgb(238, 231, 15);}
-    40% {background-color: rgb(37, 223, 24);}
-    60% {background-color: rgb(30, 100, 221);}
-    80% {background-color: rgb(185, 22, 226);}
-    100% {background-color: rgb(233, 22, 22);}
-  }
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown a:hover {background-color: #ddd;}
-  
-  .show {display: block;}
-  .d{
-   
-    background-color: black;
-   
-    height: 600px;
-    animation-duration: 10.5s;
-    animation-name: d;
-    animation-iteration-count: infinite;
-    transition: 10s;
-    width: 64.5%;
-  }
-  @keyframes d {
-    0% {background-color: rgb(233, 22, 22);}
-    20% {background-color: rgb(238, 231, 15);}
-    40% {background-color: rgb(37, 223, 24);}
-    60% {background-color: rgb(30, 100, 221);}
-    80% {background-color: rgb(185, 22, 226);}
-    100% {background-color: rgb(233, 22, 22);}
-  }
-  .d1{
-    background-color: #3498DB;
-    width: 100%;
-    height: 5px;
-    animation-duration: 1s;
-    animation-name: d1;
-    animation-iteration-count: infinite;
-    transition: 10s;
-  }
-  @keyframes d1 {
-    0% {background-color: rgb(233, 22, 22);}
-    20% {background-color: rgb(238, 231, 15);}
-    40% {background-color: rgb(37, 223, 24);}
-    60% {background-color: rgb(30, 100, 221);}
-    80% {background-color: rgb(185, 22, 226);}
-    100% {background-color: rgb(233, 22, 22);}
-  }
-  .d2{
-    color: rgb(29, 161, 237);
-    position: relative;
-    left: 500px;
-    top: 100px;
-    font-size: 300%;
-  }
-  .d3{
-    position: relative;
-    left: 350px;
-    top: 150px;
-    color: #f40909;
-  }
-  .d4{
-    position: relative;
-    left: 505px;
-    top: 50px;
-    width: 300px;
-    height: 5px;
-    background-color: #09f443;
-    border-radius: 5px;
-    animation-duration: 2s;
-    animation-name: d4;
-    animation-iteration-count: infinite;
-    transition: 10s;
-  }
-  @keyframes d4 {
-    0% {background-color: rgb(233, 22, 22);}
-    20% {background-color: rgb(238, 231, 15);}
-    40% {background-color: rgb(37, 223, 24);}
-    60% {background-color: rgb(30, 100, 221);}
-    80% {background-color: rgb(185, 22, 226);}
-    100% {background-color: rgb(233, 22, 22);}
-  }
-  #img2{
-    position: relative;
-    left: 580px;
-    top: 200px;
-   width: 150px;
-  }
-  #img3{
-    position: relative;
-    left: 70px;
-    top: 205px;
-    width: 250px;
-  }
-  #img4{
-    position: relative;
-    left: 510px;
-    top: 205px;
-    width: 110px;
-  }
-  .d5{
-    color: rgb(232, 192, 74);
-    position: relative;
-    left: 420px;
-    top: 65px;
-}
-.d6{
-  color: rgb(224, 110, 57);
-  position: relative;
-  left: 720px;
-  top: 25px;
-}
-.d7{
-  color: rgb(56, 100, 232);
-  position: relative;
-  left: 1040px;
-  top: -20px;
-}
-.d8{
-  color: white;
-  position: relative;
-  left: 255px;
-  top: 100px;
-}
-.d9{
-  color: white;
-  position: relative;
-  left: 595px;
-  top: 72px;
-}
-.d10{
-  color: white;
-  position: relative;
-  left: 930px;
-  top: 40px;
-}
-.e{
-  
-  width: 64.5%;
-  height: 1000px;
-  animation-duration: 11s;
-  animation-name: s;
-  animation-iteration-count: infinite;
-}
-@keyframes s {
-  0% {background-color: rgb(233, 22, 22);}
-  20% {background-color: rgb(238, 231, 15);}
-  40% {background-color: rgb(37, 223, 24);}
-  60% {background-color: rgb(30, 100, 221);}
-  80% {background-color: rgb(185, 22, 226);}
-  100% {background-color: rgb(233, 22, 22);}
-}
-.e1{
-  background-color: #3498DB;
-  width: 100%;
-  height: 5px;
-  animation-duration: 1s;
-  animation-name:d1;
-  animation-iteration-count: infinite;
-  transition: 10s;
-}
-#img5{
-  position: relative;
-  left: 200px;
-  top: 150px;
-width: 500px;
-}
-#img6{
-  position: relative;
-  left: 200px;
-  top: 550px;
-  width: 600px;
-}
-.e2{
-  color: #0a4ae0;
-  position: absolute;
-  left: 400px;
-  font-size: 60px;
-}
-.e3{position: relative;
-  left: 750px;
-  top: 250px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  animation-duration: 3s;
-  animation-name: e;
-  animation-iteration-count: infinite;
-  width: 400px;
-}
-.e4{
-  color: white;
-}
-.e5{position: relative;
-  left: 250px;
-  top: 650px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  animation-duration: 3s;
-  animation-name: e;
-  animation-iteration-count: infinite;
-  width: 400px;
-}
-.e6{
-  color: white;
-}
-@keyframes e {
-  0% {background-color: rgb(233, 22, 22);}
-  20% {background-color: rgb(238, 231, 15);}
-  40% {background-color: rgb(37, 223, 24);}
-  60% {background-color: rgb(30, 100, 221);}
-  80% {background-color: rgb(185, 22, 226);}
-  100% {background-color: rgb(233, 22, 22);}
-}
-/* .container2{\
-
-  /* position:absolute;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.vehiecle{
-  background-color: #0a4ae0;
-  position: relative;
-  top: 2400px;
-  width: 64.5%;
-  height: 600px;
-} */ */
-.c3{
-  position: relative;
-  top: 50px;
-  left: 20px;
-  height: 126px;
-  background-color: black;
-  width: 160px;
-}
-.c4{
-  background-color: white;
-  width: 160px;
-  height: 43px;
-}
-.c4:checked{
-  width: 160px;
-  height: 3px;
-}
-.c5{
-  position: relative;
-  background-color: rgb(158, 30, 30);
-  width: 160px;
-  height: 43px;
-}
-.c6{
-  position: relative;
-  background-color: rgb(41, 46, 212);
-  width: 160px;
-  height: 43px;
-}
 .container{
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
-body {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: ;
+.a{
+  display: flex;
+  background-color: grey;
+  width: 64.5%;
+  height: 100%;
+  justify-content: center;
+  animation-duration: 10s;
+  animation-name: c;
+  animation-iteration-count: infinite;
+  align-items: center;
+}
+@keyframes c {
+  0% {background-color: rgb(233, 22, 22);}
+  20% {background-color: rgb(238, 231, 15);}
+  40% {background-color: rgb(37, 223, 24);}
+  60% {background-color: rgb(30, 100, 221);}
+  80% {background-color: rgb(185, 22, 226);}
+  100% {background-color: rgb(233, 22, 22);}
+} 
+.a2{
+  color: #efe51d;
+    font-size: 500%;
+    position: relative;
+    margin: 5px;
+  }
+  .a3{
+  color: #09f443;
+    font-size: 500%;
+    position: relative;
+    margin: 5px;
+  }
+  .a4{
+  color: #0a4ae0;
+    margin: 5px;
+    font-size: 500%;
+    position: relative;
+  }
+  .a5{
+  color: #d511e3;
+    margin: 5px;
+    font-size: 500%;
+    position: relative;
+  }
+  .c1{
+      font-size: 200%;
+      color: white;
+  }
+  .dropbtn {
+      background-color: #3498DB;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: #2980B9;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      animation-duration: 7s;
+
+    }
+    .dropdown-content{
+      animation-name: c;
+animation-iteration-count: infinite;
+transition: 10s;
+    }
+    @keyframes drop {
+      0% {background-color: rgb(233, 22, 22);}
+      20% {background-color: rgb(238, 231, 15);}
+      40% {background-color: rgb(37, 223, 24);}
+      60% {background-color: rgb(30, 100, 221);}
+      80% {background-color: rgb(185, 22, 226);}
+      100% {background-color: rgb(233, 22, 22);}
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      animation-name: c;
+      animation-iteration-count: infinite;
+      transition: 10s;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown a:hover {background-color: #ddd;}
+    
+    .show {display: block;}
+    @keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { transform: translate(-3px, 0px) rotate(1deg); }
+      30% { transform: translate(3px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { transform: translate(-3px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-1px, -1px) rotate(1deg); }
+      90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }
+      .dropdown:hover {
+          animation: shake 0.5s;
+          animation-iteration-count: infinite;
+        }
+        #img{
+          border-radius: 50%;
+          width: 100%;
+          animation-name: img;
+          
+animation-duration: 8s;
+animation-iteration-count: infinite;
+}
+#img:hover {
+animation: shake 0.5s;
+animation-iteration-count: infinite;
+}
+@keyframes img{
+from { transform: rotate(0deg) }
+to { transform: rotate(360deg) }
+}
+.d{
+  display: flex;
+  background-color: grey;
+  width: 64.5%;
+  justify-content: center;
+  animation-duration: 10s;
+  animation-name: c;
+  animation-iteration-count: infinite;
+  align-items: center;
+  flex-direction: column;
+}
+.d1{
+  width: 100%;
+  height: 5px;
+  animation-duration: 5s;
+  animation-name: c;
+  animation-iteration-count: infinite;
+}
+.d2{
+  color: #0a4ae0;
+  font-size: 300%;
+}
+.dd{
+  color: red;
+}
+.dt{
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin: 10%;
+  display: flex;
+}
+.d3{
+  display: flex;
+  justify-content: space-around;
+}
+.d4{
+  display: flex;
+  flex-direction: column;
+}
+#img1{
+  width: 85%;
+}
+#img2{
+  width: 80%;
+}
+#img3{
+  width: 80%;
+}
+.dd{
+  margin: 3%;
+}
+.d5{
+  color: white;
+  font-size: 200%;
+  margin-top: 10%;
+}
+.d6{
+  color: purple;
+  width: 100%;
+  font-size: 200%;
+}
+.e3{
+  display: flex;
+  flex-direction: column;
+}
+#img4{
+width: 50%;
+}
+#img5{
+width: 70%;   
+}
+.e4{
+  display: flex;
+ 
+  margin-top: 10%;
+}
+.e6{
+ 
+ 
+  margin: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+.e5{
+  height: 1%;
+  border-radius: 10%;
+  color: white;
+  margin-left: 5%;
+  animation-duration: 1s;
+  animation-name: c;
+  animation-iteration-count: infinite;
+}
+.e7{
+  height: 1%;
+  border-radius: 10%;
+  margin-right: 10%;
+  animation-duration: 1s;
+  animation-name: c;
+  animation-iteration-count: infinite;
+}
+.e15{
+  color: white;
+  font-size: 200%;
+}
+.e16{
+  color: white;
+  font-size: 200%;
+}
+.e2{
+  color: #0a4ae0;
+}
+.e7{
+  display: flex;
 
 }
