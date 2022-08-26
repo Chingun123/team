@@ -1,4 +1,5 @@
 .container{
+  align-items: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -59,6 +60,7 @@
       font-size: 16px;
       border: none;
       cursor: pointer;
+      
     }
     
     .dropbtn:hover, .dropbtn:focus {
@@ -93,7 +95,7 @@ transition: 10s;
       overflow: auto;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
-      animation-name: c;
+      animation-name: drop;
       animation-iteration-count: infinite;
       transition: 10s;
     }
@@ -103,6 +105,9 @@ transition: 10s;
       padding: 12px 16px;
       text-decoration: none;
       display: block;
+      animation-name: drop;
+      animation-iteration-count: infinite;
+      transition: 10s;
     }
     
     .dropdown a:hover {background-color: #ddd;}
